@@ -11,7 +11,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #cccaca;
+  background-color: #292828;
 }
 
 a {
@@ -577,6 +578,17 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+
+.about .img-fluid{
+  width: 450px;
+  border-radius: 50px;
+}
+
+.about-image{
+  display: flex;
+  justify-content: center;
+}
+
 
 /*--------------------------------------------------------------
 # Clients
