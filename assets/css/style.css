@@ -579,6 +579,17 @@ section {
   margin-bottom: 0;
 }
 
+.about .img-fluid{
+  width: 450px;
+  border-radius: 50px;
+}
+
+.about-image{
+  display: flex;
+  justify-content: center;
+}
+
+
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
