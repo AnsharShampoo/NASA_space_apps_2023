@@ -1550,3 +1550,14 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+.footer-images {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente las imágenes */
+  align-items: center; /* Centra verticalmente las imágenes */
+}
+
+.footer-images img {
+  width: 350px; /* Ajusta el tamaño de las imágenes según sea necesario */
+  margin: 40px 60px; /* Agrega margen horizontal entre las imágenes */
+}
