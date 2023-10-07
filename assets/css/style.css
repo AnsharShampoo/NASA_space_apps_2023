@@ -15,12 +15,12 @@ body {
 }
 
 a {
-  color: #ffc451;
+  color: blue;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ffd584;
+  color: blue;
   text-decoration: none;
 }
 
@@ -145,7 +145,7 @@ h6 {
 }
 
 #header .logo a span {
-  color: #ffc451;
+  color: blue;
 }
 
 #header .logo img {
@@ -163,11 +163,11 @@ h6 {
   transition: 0.3s;
   font-size: 14px;
   display: inline-block;
-  border: 2px solid #ffc451;
+  border: 2px solid rgb(6, 54, 230);
 }
 
 .get-started-btn:hover {
-  background: #ffbb38;
+  background: rgb(19, 130, 222);
   color: #343a40;
 }
 
@@ -224,7 +224,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #ffc451;
+  color: blue;
 }
 
 .navbar .dropdown ul {
@@ -261,7 +261,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  background-color: #ffc451;
+  background-color: blue;
 }
 
 .navbar .dropdown:hover>ul {
@@ -406,7 +406,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/backg.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -437,7 +437,7 @@ h6 {
 }
 
 #hero h1 span {
-  color: #ffc451;
+  color: blue;
 }
 
 #hero h2 {
@@ -457,7 +457,7 @@ h6 {
 #hero .icon-box i {
   font-size: 32px;
   line-height: 1;
-  color: #ffc451;
+  color: blue;
 }
 
 #hero .icon-box h3 {
@@ -475,11 +475,11 @@ h6 {
 }
 
 #hero .icon-box h3 a:hover {
-  color: #ffc451;
+  color: blue;
 }
 
 #hero .icon-box:hover {
-  border-color: #ffc451;
+  border-color: blue;
 }
 
 @media (min-width: 1024px) {
