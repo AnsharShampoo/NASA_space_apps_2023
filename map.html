@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Water Weather App</title>
+    <title>Water Life</title>
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css' rel='stylesheet' />
@@ -84,8 +84,15 @@
         padding: 20px; /* Espaciado interno */
         border-radius: 10px; /* Bordes redondeados */
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
-        margin-top: 350px; /* Espacio entre el texto izquierdo y el chatbot (ajusta según tu diseño) */
+        margin-top: 50px; /* Espacio entre el texto izquierdo y el chatbot (ajusta según tu diseño) */
+        font-size: 16px;
     }
+    .popup-image {
+  max-width: 100%; /* Establece el ancho máximo al 100% del contenedor */
+  max-height: 100%; /* Establece la altura máxima al 100% del contenedor */
+  display: block; /* Hace que la imagen sea un elemento en línea con márgenes automáticos */
+  margin: 0 auto; /* Centra horizontalmente la imagen en su contenedor */
+}
     </style>
   </head>
   <body>
@@ -93,13 +100,14 @@
     
     <div class="container">
         <div class="left-content">
-            <h1>Water Weather App</h1>
+            <h1>Water Life</h1>
             <div class="text-container">
             <p>Welcome to the Water Weather App!  you can explore real-time weather data and water conditions. You can also learn more about endangered animals in the area.</p>
             <p>Select locations on the map to get detailed information.</p>
+            <p>If you see a link on the title, you can click on it, and you will see a QR code. By scanning the QR code with your mobile device, you can experience augmented reality with endemic or endangered animals, enjoy!</p>
             </div>
             <div class="chatbot-container">
-            <p>aqui estara el chat bot</p>
+            <p>Hi, talk to me! I'm a chatbot designed to provide information and engage in conversations about endangered animals. Feel free to ask me any questions you have about these animals!</p>
             </div>
         </div>
         
@@ -145,7 +153,7 @@
                     },{
         'type': 'Feature',
         'properties': {
-            'description': '<strong>(USGS Monitoring Station 11044000)<strong><p>ph: 8.0</p><p>temperature: 23.0°C',
+            'description': '<a href="assets/img/codigo.jpeg"><i ><strong>(USGS Monitoring Station 11044000)<strong></i></a><p>ph: 8.0</p><p>temperature: 23.0°C <img src="assets/img/codigo.jpeg" class="popup-image">',
             'icon': 'kitten'
         },
         'geometry': {
@@ -156,7 +164,7 @@
 {
         'type': 'Feature',
         'properties': {
-            'description': '<strong>(USGS Monitoring Station 09429490)<strong><p>ph: 8.2</p><p>temperature: 24.8°C',
+            'description': '<a href="assets/img/codigo.jpeg"><i ><strong>(USGS Monitoring Station 09429490)<strong></i></a><p>ph: 8.2</p><p>temperature: 24.8°C <img src="assets/img/codigo.jpeg" class="popup-image">',
             'icon': 'kitten'
         },
         'geometry': {
@@ -178,7 +186,7 @@
 {
         'type': 'Feature',
         'properties': {
-            'description': '<strong>(USGS Monitoring Station 08374200)<strong><p>ph: 8.0</p><p>temperature: 24.3°C',
+            'description': '<a href="assets/img/codigo.jpeg"><i > <strong>(USGS Monitoring Station 08374200)<strong></i></a><p>ph: 8.0</p><p>temperature: 24.3°C <img src="assets/img/codigo.jpeg" class="popup-image">' ,
             'icon': 'kitten'
         },
         'geometry': {
@@ -189,7 +197,7 @@
 {
         'type': 'Feature',
         'properties': {
-            'description': '<strong>(USGS Monitoring Station 08374510)<strong><p>ph: 7.0</p><p>temperature: 21.9°C',
+            'description': '<a href="assets/img/codigo.jpeg"><i > <strong>(USGS Monitoring Station 08374510)<strong></i></a><p>ph: 7.0</p><p>temperature: 21.9°C <img src="assets/img/codigo.jpeg" class="popup-image">',
             'icon': 'kitten'
         },
         'geometry': {
