@@ -665,6 +665,12 @@ section {
   min-height: 400px;
 }
 
+
+.icon-box.mt-5.aos-init.aos-animate h4,
+.icon-box.mt-5.aos-init.aos-animate p{
+  margin-left: 20px;
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
